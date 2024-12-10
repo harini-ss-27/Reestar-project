@@ -1,0 +1,125 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+
+    text-align: center;
+}
+
+.section-one {
+
+    background-color: black;
+    height: 90px;
+    color: white;
+    padding-top: 10px;
+}
+
+.section-one__heading {
+
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.section-one__nav {
+
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.section-two {
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+
+.section-two__div {
+    display: inline-block;
+    height: 370px;
+    width: 200px;
+    border: 3px solid black;
+}
+
+.section-two__noodles {
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.section-two_noodles:hover {
+
+    transform: scale(1.5)
+}
+
+.section-two__button {
+
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.section-two__button:hover {
+
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.section-two__desc {
+
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.section-two__recipe {
+
+    font-size: 20px;
+}
+
+.section-two__chicken--modifier {
+
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.section-two__hot-chocolate--modifier {
+
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.section-three {
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    height: 150px;
+    color: white;
+    padding: 20px;
+}
+
+.button {
+
+    background-color: yellow;
+    width: 400px;
+    margin-top: 10px;
+}
